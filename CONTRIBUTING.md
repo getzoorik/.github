@@ -8,7 +8,7 @@ Thanks for helping. This guide covers every public `getzoorik` repository that h
 - Pick the bug report or the feature request form and fill it in. For a bug, say what you did, what you expected and what happened, and include the version you ran.
 - Remove tokens, keys and other secrets from anything you paste.
 - For a question about using Zoorik, start with the docs at [zoorik.com/docs](https://zoorik.com/docs).
-- Found a security problem? Do not open an issue. Follow [SECURITY.md](SECURITY.md) instead.
+- Found a security problem? Do not open an issue. Follow [SECURITY.md](https://github.com/getzoorik/.github/blob/main/SECURITY.md) instead.
 
 ## Send a pull request
 
@@ -23,4 +23,4 @@ You do not need to sign off your commits or sign a contributor agreement. Our pu
 
 ## Be kind
 
-Be patient, assume good intent and keep feedback about the work, not the person. Everyone here follows our [Code of Conduct](CODE_OF_CONDUCT.md). To report a problem, write to [founders@zoorik.com](mailto:founders@zoorik.com).
+Be patient, assume good intent and keep feedback about the work, not the person. Everyone here follows our [Code of Conduct](https://github.com/getzoorik/.github/blob/main/CODE_OF_CONDUCT.md). To report a problem, write to [founders@zoorik.com](mailto:founders@zoorik.com).
