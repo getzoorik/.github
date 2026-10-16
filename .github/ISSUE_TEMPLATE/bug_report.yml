@@ -1,0 +1,38 @@
+name: Bug report
+description: Something does not work the way it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. Found a security problem? Please report it privately instead, as [SECURITY.md](https://github.com/getzoorik/.github/blob/main/SECURITY.md) explains.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Run ...
+        2. See ...
+  - type: textarea
+    id: output
+    attributes:
+      label: Output or logs
+      description: Paste any error output. Remove tokens, keys and other secrets first.
+      render: shell
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: For example the output of `zoorikctl version`, or the commit you ran.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Your operating system, cloud and Kubernetes version, and anything else that may matter.
