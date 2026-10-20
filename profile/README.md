@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://zoorik.com"><img alt="Zoorik. Reduce cloud cost, autonomously." src="brand/zoorik-reveal-tagline-on-navy-960x540.gif" width="100%"></a>
+  <a href="https://zoorik.com"><img alt="Zoorik. Reduce cloud cost, autonomously." src="brand/zoorik-reveal-tagline-banner-on-navy-960x240.gif" width="100%"></a>
 </p>
 
 <p align="center">
