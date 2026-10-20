@@ -1,10 +1,5 @@
 <p align="center">
-  <a href="https://zoorik.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="brand/zoorik-logo-tagline-rings-opposite-bone.svg">
-      <img alt="Zoorik. Reduce cloud cost, autonomously." src="brand/zoorik-logo-tagline-rings-opposite-navy.svg" width="360">
-    </picture>
-  </a>
+  <a href="https://zoorik.com"><img alt="Zoorik. Reduce cloud cost, autonomously." src="brand/zoorik-reveal-tagline-on-navy-960x540.gif" width="100%"></a>
 </p>
 
 <p align="center">
