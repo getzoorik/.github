@@ -1,9 +1,14 @@
 <p align="center">
-  <a href="https://zoorik.com"><img src="banner.png" alt="Zoorik: cloud waste recovery, running continuously" width="100%"></a>
+  <a href="https://zoorik.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="brand/zoorik-logo-tagline-rings-opposite-bone.svg">
+      <img alt="Zoorik. Reduce cloud cost, autonomously." src="brand/zoorik-logo-tagline-rings-opposite-navy.svg" width="360">
+    </picture>
+  </a>
 </p>
 
 <p align="center">
-  Two products that cut your cloud bill while your systems keep serving.
+  Two products that reduce your cloud bill while your systems keep serving.
   <br>
   <a href="https://zoorik.com"><b>Website</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://zoorik.com/assessment"><b>Free assessment</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://cal.com/zoorik/talk"><b>Book a demo</b></a>
 </p>
@@ -40,7 +45,7 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top"><b>Cut cost</b><br><sub>Pay for what your workloads use, not what was provisioned for the peak.</sub></td>
+    <td width="50%" valign="top"><b>Reduce cost</b><br><sub>Pay for what your workloads use, not what was provisioned for the peak.</sub></td>
     <td width="50%" valign="top"><b>Safe by design</b><br><sub>Nodes drain one at a time. A disk leaves the pool only when it is empty.</sub></td>
   </tr>
   <tr>
@@ -51,11 +56,11 @@
 
 ### Find your own number
 
-One line in your cloud console. One Excel file with your estimated saving at list price. There is no upload and no telemetry; you send the file yourself.
+One command in your terminal. One PDF report with your estimated saving at list prices. There is no upload and no telemetry, and you send the report yourself.
 
 ```bash
-curl -fsSL https://zoorik.com/assess/k8s | python3 -     # Kubernetes (AKS and EKS)
-curl -fsSL https://zoorik.com/assess/disks | python3 -   # Azure disks (Linux VMs)
+npx zoorik assess coral     # Kubernetes: AKS, EKS, or any cluster kubectl can reach
+npx zoorik assess amoeba    # block storage: the data disks of your VMs
 ```
 
 <sub>Read the code first in <a href="https://github.com/getzoorik/assessment">getzoorik/assessment</a>, or follow the steps at <a href="https://zoorik.com/assessment">zoorik.com/assessment</a>.</sub>
@@ -84,6 +89,10 @@ Then run the `zoorikctl cluster connect` command from the Coral console's "Conne
 | [zoorikctl](https://github.com/getzoorik/zoorikctl) | The command that connects a Kubernetes cluster to Coral: releases and installers |
 | [homebrew-tap](https://github.com/getzoorik/homebrew-tap) | Homebrew tap for zoorikctl |
 | [scoop-bucket](https://github.com/getzoorik/scoop-bucket) | Scoop bucket for zoorikctl |
+| [terraform-azurerm-zoorik-coral](https://github.com/getzoorik/terraform-azurerm-zoorik-coral) | Terraform module: the Azure permissions the Coral agent needs on an AKS cluster |
+| [terraform-aws-zoorik-coral](https://github.com/getzoorik/terraform-aws-zoorik-coral) | Terraform module: the AWS permissions the Coral agent needs on an EKS cluster |
+| [kubernetes-scenarios](https://github.com/getzoorik/kubernetes-scenarios) | Ready-made Kubernetes situations for testing cost optimizers on kind |
+| [website](https://github.com/getzoorik/website) | The source of zoorik.com |
 
 </details>
 
