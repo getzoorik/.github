@@ -125,7 +125,7 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ steps.token.outputs.token }}
-          trigger_phrase: '@aos-app'
+          trigger_phrase: '@zoorikapp'
           branch_prefix: 'aos/'
           bot_id: ${{ steps.bot.outputs.id }}
           bot_name: ${{ steps.bot.outputs.name }}
